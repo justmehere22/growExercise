@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="index.css"></script>
+    <script src="./script.js"></script>
   </head>
   <body>
     <h1 class="Heading1">Rock, Paper, Scissors, Lizard, Spock</h1>
@@ -12,19 +14,17 @@
     />
 
     <div class="Buttons">
-      <button>Rock</button>
-      <button>Paper</button>
-      <button>Scissors</button>
-      <button>Lizard</button>
-      <button>Spock</button>
+      <button onclick="play('rock')">Rock</button>
+      <button onClick="play('paper')">Paper</button>
+      <button onClick="play('scissors')">Scissors</button>
+      <button onClick="play('lizard')">Lizard</button>
+      <button onClick="play('spock')">Spock</button>
     </div>
 
-    <p id="youPlayed"></p>
+    <p id="youPlayed">You played</p>
 
-    <p id="theyPlayed"></p>
+    <p id="theyPlayed">They played</p>
 
-    <p id="result"></p>
-
-    <script src="./script.js"></script>
+    <p id="result">The result</p>
   </body>
 </html>
